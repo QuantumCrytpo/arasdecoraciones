@@ -1,0 +1,64 @@
+<div id="home-carousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+  	<ul class="carousel-indicators">
+    	<li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+    	<li data-target="#home-carousel" data-slide-to="1"></li>
+    	<li data-target="#home-carousel" data-slide-to="2"></li>
+  	</ul>
+
+	<!-- The slideshow -->
+	<div class="carousel-inner">
+	   	<div class="carousel-item active">
+	      	<img src="media/images/decoraciones/deco-000.jpg" alt="Unicornios Rosas"></img>
+	    </div>
+	    <div class="carousel-item">
+	      	<img src="media/images/decoraciones/deco-001.jpg" alt="Catarinas"></img>
+	    </div>
+	    <div class="carousel-item">
+	      	<img src="media/images/decoraciones/deco-003.jpg" alt="Selva Flamingos"></img>
+	    </div>
+	</div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#home-carousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#home-carousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>				
+
+
+<div id="home-tiles" class="row">
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#decoraciones" onclick="$aradeco.loadCategory(1);">
+			<div id="deco-tile">
+				<img src="media/main-deco.jpg">
+				<span>Decoraciones</span>
+			</div>
+		</a>
+	</div>
+
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#arreglos" onclick="$aradeco.loadCategory(2);">
+			<div id="arreglos-tile">
+				<img src="media/main-arreglo.jpg">
+				<span>Arreglos</span>
+			</div>
+		</a>
+	</div>
+
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="#postres" onclick="$aradeco.loadCategory(3);">
+			<div id="postres-tile">
+				<img src="media/main-postre.jpg">
+				<span>Postres</span>
+			</div>
+		</a>
+	</div>
+
+	<div class="col-md-12 col-sm-6 col-xs-12">
+		<span></span>
+	</div>
+</div>

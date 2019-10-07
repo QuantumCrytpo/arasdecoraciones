@@ -1,0 +1,16 @@
+<div id="main-row" class="row">
+  	<!-- Sorting Side Bar Only Visible in large screens -->
+  	<div class="col-lg-2 col-sm-12">
+  		<div id="nav-btn-container" class="d-block d-lg-none">
+		  <button id="optsBtn" class="btn btn-primary btn-block" type="button" data-toggle="collapse" data-target="#collapsed-options" aria-expanded="false" aria-controls="#collapsed-options">
+		    Opciones
+		  </button>
+		</div>
+  		<legend class="d-none d-lg-block"><b>Opciones</b></legend>
+  		<div class="collapse" id="collapsed-options">    
+	       	<ul class="checkboxList flex-lg-column text-sm-center sticky-top">
+	    		{{list-items}}
+	        </ul>
+    	</div>
+  	</div>
+	<!-- Missing losing div, added dynamycally at loading -->
